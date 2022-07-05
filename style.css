@@ -102,3 +102,26 @@ header ul {
 header li {
    padding: 0 20px;
 }
+
+
+/* ------------------------------------------------
+	* メインビジュアル
+-------------------------------------------------- */
+
+.mainvisual {
+   height: 80vh;
+   background-image: url(PXL_20220621_065121620.jpg);
+   background-size: cover;
+   background-position: center;
+   position: relative;
+}
+
+.mainvisual::before{
+   background-color: rgba(0,0,0,0.6);
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   content: ' ';
+}
